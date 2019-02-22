@@ -1,0 +1,3 @@
+module "exampleA" {
+  source = "../../"
+}
