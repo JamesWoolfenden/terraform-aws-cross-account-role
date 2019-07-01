@@ -14,3 +14,7 @@ variable "policy_arns" {
   description = "List of ARNs of policies to be associated with the created IAM role"
 }
 
+variable "common_tags" {
+  description="Implements the common tags scheme"
+  type="map"
+}
