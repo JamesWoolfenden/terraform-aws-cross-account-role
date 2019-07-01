@@ -59,7 +59,6 @@ usage: |-
   module "role" {
     source     = "git::https://github.com/jameswoolfenden/terraform-aws-cross-account-role.git?ref=master"
     policy_arns       = "${var.policy_arns}"
-    count_policy_arns = "${var.count_policy_arns}"
     role_name         = "${var.role_name}"
     principal_arns    = "${var.principal_arns}"
   }

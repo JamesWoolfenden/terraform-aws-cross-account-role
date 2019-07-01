@@ -20,7 +20,6 @@ Include this repository as a module in your existing terraform code:
 module "role" {
   source     = "git::https://github.com/jameswoolfenden/terraform-aws-cross-account-role.git?ref=master"
   policy_arns       = "${var.policy_arns}"
-  count_policy_arns = "${var.count_policy_arns}"
   role_name         = "${var.role_name}"
   principal_arns    = "${var.principal_arns}"
 }
@@ -30,7 +29,6 @@ module "role" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| count_policy_arns | - | string | - | yes |
 | policy_arns | List of ARNs of policies to be associated with the created IAM role | list | - | yes |
 | principal_arns | ARNs of accounts, groups, or users with the ability to assume this role. | list | - | yes |
 | role_name | Name of the role being created. | string | - | yes |
