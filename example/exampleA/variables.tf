@@ -9,6 +9,5 @@ variable "policy_arns" {
 }
 
 variable "common_tags" {
-  type=map
+  type = map
 }
-
