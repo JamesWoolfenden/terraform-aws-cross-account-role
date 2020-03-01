@@ -1,9 +1,9 @@
 
 [![Slalom][logo]](https://slalom.com)
 
-# terraform-aws-cross-account-role 
+# terraform-aws-cross-account-role
 
-[![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role) 
+[![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cross-account-role.svg)](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/releases/latest)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![pre-commit](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
@@ -28,20 +28,26 @@ module "role" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Providers
+
+| Name | Version |
+|------|---------|
+| aws | n/a |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| common\_tags | Implements the common tags scheme | map | n/a | yes |
-| policy\_arns | List of ARNs of policies to be associated with the created IAM role | list | n/a | yes |
-| principal\_arns | ARNs of accounts, groups, or users with the ability to assume this role. | list | n/a | yes |
-| role\_name | Name of the role being created. | string | n/a | yes |
+|------|-------------|------|---------|:-----:|
+| common\_tags | Implements the common tags scheme | `map` | n/a | yes |
+| policy\_arns | List of ARNs of policies to be associated with the created IAM role | `list` | n/a | yes |
+| principal\_arns | ARNs of accounts, groups, or users with the ability to assume this role. | `list` | n/a | yes |
+| role\_name | Name of the role being created. | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| role | hashicorp required |
+| role | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Instructions
