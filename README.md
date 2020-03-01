@@ -3,7 +3,7 @@
 
 # terraform-aws-cross-account-role
 
-[![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role)
+![Verify and Bump](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/workflows/Verify%20and%20Bump/badge.svg) 
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cross-account-role.svg)](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/releases/latest)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![pre-commit](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
