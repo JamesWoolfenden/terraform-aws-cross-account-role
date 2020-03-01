@@ -1,7 +1,12 @@
 
 [![Slalom][logo]](https://slalom.com)
 
-# terraform-aws-cross-account-role [![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role) [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cross-account-role.svg)](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/releases/latest)
+# terraform-aws-cross-account-role 
+
+[![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-cross-account-role) 
+[![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cross-account-role.svg)](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/releases/latest)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![pre-commit](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
 
 Terraform module to provision a role in AWS.
 
@@ -61,7 +66,7 @@ Please use the [issue tracker](https://github.com/jameswoolfenden/terraform-aws-
 
 ## Copyrights
 
-Copyright © 2019-2019 [Slalom, LLC](https://slalom.com)
+Copyright © 2019-2020 [Slalom, LLC](https://slalom.com)
 
 ## License
 
