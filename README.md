@@ -3,7 +3,7 @@
 
 # terraform-aws-cross-account-role
 
-![Verify and Bump](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/workflows/Verify%20and%20Bump/badge.svg) 
+![Verify and Bump](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/workflows/Verify%20and%20Bump/badge.svg)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cross-account-role.svg)](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/releases/latest)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![pre-commit](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
@@ -28,6 +28,10 @@ module "role" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
+
+No requirements.
+
 ## Providers
 
 | Name | Version |
@@ -37,7 +41,7 @@ module "role" {
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:-----:|
+|------|-------------|------|---------|:--------:|
 | common\_tags | Implements the common tags scheme | `map` | n/a | yes |
 | policy\_arns | List of ARNs of policies to be associated with the created IAM role | `list` | n/a | yes |
 | principal\_arns | ARNs of accounts, groups, or users with the ability to assume this role. | `list` | n/a | yes |
@@ -106,8 +110,8 @@ under the License.
 [logo]: https://gist.githubusercontent.com/JamesWoolfenden/5c457434351e9fe732ca22b78fdd7d5e/raw/15933294ae2b00f5dba6557d2be88f4b4da21201/slalom-logo.png
 [website]: https://slalom.com
 [github]: https://github.com/jameswoolfenden
-[linkedin]: https://www.linkedin.com/company/slalom-consulting/
-[twitter]: https://twitter.com/Slalom
+[linkedin]: https://www.linkedin.com/in/jameswoolfenden/
+[twitter]: https://twitter.com/JimWoolfenden
 
 [share_twitter]: https://twitter.com/intent/tweet/?text=terraform-aws-cross-account-role&url=https://github.com/jameswoolfenden/terraform-aws-cross-account-role
 [share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-aws-cross-account-role&url=https://github.com/jameswoolfenden/terraform-aws-cross-account-role
