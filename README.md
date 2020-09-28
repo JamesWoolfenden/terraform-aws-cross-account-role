@@ -25,7 +25,6 @@ module "role" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
 ## Requirements
 
 No requirements.
@@ -33,23 +32,23 @@ No requirements.
 ## Providers
 
 | Name | Version |
-| ---- | ------- |
-| aws  | n/a     |
+|------|---------|
+| aws | n/a |
 
 ## Inputs
 
-| Name           | Description                                                              | Type     | Default | Required |
-| -------------- | ------------------------------------------------------------------------ | -------- | ------- | :------: |
-| common_tags    | Implements the common tags scheme                                        | `map`    | n/a     |   yes    |
-| policy_arns    | List of ARNs of policies to be associated with the created IAM role      | `list`   | n/a     |   yes    |
-| principal_arns | ARNs of accounts, groups, or users with the ability to assume this role. | `list`   | n/a     |   yes    |
-| role_name      | Name of the role being created.                                          | `string` | n/a     |   yes    |
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| common\_tags | Implements the common tags scheme | `map` | n/a | yes |
+| policy\_arns | List of ARNs of policies to be associated with the created IAM role | `list` | n/a | yes |
+| principal\_arns | ARNs of accounts, groups, or users with the ability to assume this role. | `list` | n/a | yes |
+| role\_name | Name of the role being created. | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
-| ---- | ----------- |
-| role | n/a         |
+|------|-------------|
+| role | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
