@@ -4,10 +4,10 @@ variable "role_name" {
 }
 
 variable "policy_arns" {
-  type        = list
+  type        = list(any)
   description = "List of ARNs of policies to be associated with the created IAM role"
 }
 
 variable "common_tags" {
-  type = map
+  type = map(any)
 }
