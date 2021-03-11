@@ -39,13 +39,25 @@ No requirements.
 |------|---------|
 | aws | n/a |
 
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name |
+|------|
+| [aws_iam_policy_document](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document) |
+| [aws_iam_role](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role) |
+| [aws_iam_role_policy_attachment](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy_attachment) |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| common\_tags | Implements the common tags scheme | `map` | n/a | yes |
-| policy\_arns | List of ARNs of policies to be associated with the created IAM role | `list` | n/a | yes |
-| principal\_arns | ARNs of accounts, groups, or users with the ability to assume this role. | `list` | n/a | yes |
+| common\_tags | Implements the common tags scheme | `map(any)` | n/a | yes |
+| policy\_arns | List of ARNs of policies to be associated with the created IAM role | `list(any)` | n/a | yes |
+| principal\_arns | ARNs of accounts, groups, or users with the ability to assume this role. | `list(any)` | n/a | yes |
 | role\_name | Name of the role being created. | `string` | n/a | yes |
 
 ## Outputs
@@ -53,7 +65,6 @@ No requirements.
 | Name | Description |
 |------|-------------|
 | role | n/a |
-
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Instructions
