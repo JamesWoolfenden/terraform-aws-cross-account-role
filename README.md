@@ -29,15 +29,16 @@ module "role" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
 ## Requirements
 
 No requirements.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| Name                                             | Version |
+| ------------------------------------------------ | ------- |
+| <a name="provider_aws"></a> [aws](#provider_aws) | n/a     |
 
 ## Modules
 
@@ -45,26 +46,27 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [aws_iam_role.cross_account_assume_role](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role) | resource |
-| [aws_iam_role_policy_attachment.cross_account_assume_role](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy_attachment) | resource |
-| [aws_iam_policy_document.cross_account_assume_role_policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document) | data source |
+| Name                                                                                                                                                               | Type        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [aws_iam_role.cross_account_assume_role](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role)                                     | resource    |
+| [aws_iam_role_policy_attachment.cross_account_assume_role](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy_attachment) | resource    |
+| [aws_iam_policy_document.cross_account_assume_role_policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document)     | data source |
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | Implements the common tags scheme | `map(any)` | n/a | yes |
-| <a name="input_policy_arns"></a> [policy\_arns](#input\_policy\_arns) | List of ARNs of policies to be associated with the created IAM role | `list(any)` | n/a | yes |
-| <a name="input_principal_arns"></a> [principal\_arns](#input\_principal\_arns) | ARNs of accounts, groups, or users with the ability to assume this role. | `list(any)` | n/a | yes |
-| <a name="input_role_name"></a> [role\_name](#input\_role\_name) | Name of the role being created. | `string` | n/a | yes |
+| Name                                                                        | Description                                                              | Type        | Default | Required |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ----------- | ------- | :------: |
+| <a name="input_common_tags"></a> [common_tags](#input_common_tags)          | Implements the common tags scheme                                        | `map(any)`  | n/a     |   yes    |
+| <a name="input_policy_arns"></a> [policy_arns](#input_policy_arns)          | List of ARNs of policies to be associated with the created IAM role      | `list(any)` | n/a     |   yes    |
+| <a name="input_principal_arns"></a> [principal_arns](#input_principal_arns) | ARNs of accounts, groups, or users with the ability to assume this role. | `list(any)` | n/a     |   yes    |
+| <a name="input_role_name"></a> [role_name](#input_role_name)                | Name of the role being created.                                          | `string`    | n/a     |   yes    |
 
 ## Outputs
 
-| Name | Description |
-|------|-------------|
-| <a name="output_role"></a> [role](#output\_role) | n/a |
+| Name                                            | Description |
+| ----------------------------------------------- | ----------- |
+| <a name="output_role"></a> [role](#output_role) | n/a         |
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Instructions
@@ -89,7 +91,7 @@ Please use the [issue tracker](https://github.com/jameswoolfenden/terraform-aws-
 
 ## Copyrights
 
-Copyright © 2019-2021 James Woolfenden
+Copyright © 2019-2022 James Woolfenden
 
 ## License
 
