@@ -1,6 +1,6 @@
 # terraform-aws-cross-account-role
 
-![Verify and Bump](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/workflows/Verify%20and%20Bump/badge.svg)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/workflows/Verify/badge.svg?branch=main)](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cross-account-role.svg)](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/releases/latest)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-aws-cross-account-role.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-aws-cross-account-role/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
